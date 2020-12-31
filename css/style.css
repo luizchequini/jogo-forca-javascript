@@ -1,0 +1,52 @@
+.letra{
+    width: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;
+    display: none;
+}
+.letraJ{
+    width: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;
+}
+#dvDisplay{
+    display: block;
+}
+#dvForca{
+    position: absolute;
+    left: 150px;
+}
+#cabeca {
+    position: absolute;
+    top: 0px;
+    left: 102px;
+}
+#corpo {
+    position: absolute;
+    top: 234px;
+    left: 105px;
+}
+#bracoE {
+    position: absolute;
+    top: 173px;
+    left: -80px;
+}
+#bracoD {
+    position: absolute;
+    top: 173px;
+    left: 341px;
+}
+#pernaE {
+    position: absolute;
+    top: 487px;
+    left: -74px;
+}
+#pernaD {
+    position: absolute;
+    top: 488px;
+    left: 248px;
+}

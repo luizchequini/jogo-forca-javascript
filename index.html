@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da forca em Javascript</title>
+
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/main.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <div id="dvMenu" class="dvDisplay">
+        <button onclick="inicia()">Nova Palavra</button>
+    </div>
+    <div id="dvPalavra" class="dvDisplay">
+        <input type="text" id="letra0" class="letra" maxlength="1" />
+        <input type="text" id="letra2" class="letra" maxlength="1" />
+        <input type="text" id="letra3" class="letra" maxlength="1" />
+        <input type="text" id="letra4" class="letra" maxlength="1" />
+        <input type="text" id="letra5" class="letra" maxlength="1" />
+        <input type="text" id="letra6" class="letra" maxlength="1" />
+        <input type="text" id="letra7" class="letra" maxlength="1" />
+        <input type="text" id="letra8" class="letra" maxlength="1" />
+        <input type="text" id="letra9" class="letra" maxlength="1" />
+        <input type="text" id="letra10" class="letra" maxlength="1" />
+        <input type="text" id="letra11" class="letra" maxlength="1" />
+        <input type="text" id="letra12" class="letra" maxlength="1" />
+        <input type="text" id="letra13" class="letra" maxlength="1" />
+        <input type="text" id="letra14" class="letra" maxlength="1" />
+        <input type="text" id="letra15" class="letra" maxlength="1" />
+        <input type="text" id="letra16" class="letra" maxlength="1" />
+        <input type="text" id="letra17" class="letra" maxlength="1" />
+        <input type="text" id="letra18" class="letra" maxlength="1" />
+        <input type="text" id="letra19" class="letra" maxlength="1" />
+    </div>
+    <div id="dvJogado" class="dvDisplay">
+        <input type="text" id="letraJ" class="letraJ" maxlength="1" />
+        <button onclick="Jogar()">Jogar</button>
+        <button onclick="Dica()">Dica</button>
+        <div id="dvMsg"></div>
+        <br />
+        <div id="dvLetrasDigitadas">Letras Digitadas:</div>
+    </div>
+    <div id="dvForca">
+        <img id="cabeca" src="img/cabeca.png" />
+        <img id="corpo" src="img/corpo.png" />
+        <img id="bracoE" src="img/bracoE.png" />
+        <img id="bracoD" src="img/bracoD.png" />
+        <img id="pernaE" src="img/pernaE.png" />
+        <img id="pernaD" src="img/pernaD.png" />
+    </div>
+</body>
+</html>
